@@ -33,7 +33,7 @@ George - Pleased with work up to now, focusing on the redux side of the program 
 Wednesday\
 Jamie - Managed to get one question to load but now need to focus on getting all questions to cycle through. This could be a potential blocker along with time\
 Anna - Struggled with getting the data to pass through but managed at the end. Will work on using the store and props to pass through to child components. Blockers: none\
-Cindy -  Yesterday: managed to fix that only one question appeared per page, made a “next questions”, managed to randomize the answer buttons and make the correct answer button return a score. Today: will work on making the “next questions” button appear/disappear. Blockers: Time. Aiming to complete the main features before tomorrow.\
+Cindy -  Yesterday: managed to fix that only one question appeared per page, made a “next questions” button, managed to randomize the answer buttons and make the correct answer button return a score. Today: will work on making the “next questions” button appear/disappear. Blockers: Time. Aiming to complete the main features before tomorrow.\
 George - Tried to get the questions to load one at a time yesterday so will have to work on that again today. Blockers are time with regards to the problem.
 
 Thursday\
