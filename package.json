@@ -11,7 +11,8 @@
     "start": "webpack-dev-server --mode-development",
     "build": "webpack -p",
     "test": "jest --watch --setupFiles ./src/test/setupTests.js",
-    "coverage": "jest --setupFiles ./src/test/setupTests.js --coverage --watchAll=false"
+    "coverage": "jest --setupFiles ./src/test/setupTests.js --coverage --watchAll=false",
+    "heroku-prebuild": "npm install --dev"
   },
   "jest": {
     "moduleNameMapper": {
