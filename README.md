@@ -11,7 +11,11 @@ Then run `npm start`
 
 ## Contributers
 
-Contributers: Anna(https://github.com/AnnaTran96), Cindy(https://github.com/cindywfeng), George(https://github.com/georgeo23) and Jamie(https://github.com/JamieSear)
+Contributers: 
+Anna(https://github.com/AnnaTran96),
+Cindy(https://github.com/cindywfeng),
+George(https://github.com/georgeo23),
+Jamie(https://github.com/JamieSear)
 
 ## Stand Up
 Monday
