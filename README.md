@@ -27,13 +27,13 @@ George - Played some quiz apps over weekend to get the general feel of what it s
 Tuesday\
 Jamie -  Like everyone else, happy with progress so far. Will work on getting question to load up. No blockers so far\
 Anna - Enjoyed the first day, very happy with the progress so far. Will work on fetching data from the API. No Blockers today\
-Cindy - Yesterday we made great progress. We managed to fetch the data/ make data appear on the pages we want. Today we will work on getting a single question on each page, a next button for the next question to appear/disappear. No blockers yet.\
+Cindy - Yesterday we made great progress. We managed to fetch the data/ make some of the data appear on the pages we want. Today we will work on getting a single question on each page, a next button for the next question to appear/disappear. No blockers yet.\
 George - Pleased with work up to now, focusing on the redux side of the program today. No blockers
 
 Wednesday\
 Jamie - Managed to get one question to load but now need to focus on getting all questions to cycle through. This could be a potential blocker along with time\
 Anna - Struggled with getting the data to pass through but managed at the end. Will work on using the store and props to pass through to child components. Blockers: none\
-Cindy -  Yesterday we managed to fix that only one question appeared per page, made a “next questions”, managed to randomize the answer buttons and make the correct answer button return a score. Today: will work on making the “next questions” button appear/disappear. Blockers: Time. Aiming to complete the main features before tomorrow.\
+Cindy -  Yesterday: managed to fix that only one question appeared per page, made a “next questions”, managed to randomize the answer buttons and make the correct answer button return a score. Today: will work on making the “next questions” button appear/disappear. Blockers: Time. Aiming to complete the main features before tomorrow.\
 George - Tried to get the questions to load one at a time yesterday so will have to work on that again today. Blockers are time with regards to the problem.
 
 Thursday\
