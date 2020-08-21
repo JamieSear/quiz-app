@@ -14,7 +14,7 @@ Then run `npm start`
 Contributers: 
 Anna(https://github.com/AnnaTran96),
 Cindy(https://github.com/cindywfeng),
-George(https://github.com/georgeo23),
+George(https://github.com/georgeo23) and 
 Jamie(https://github.com/JamieSear)
 
 ## Stand Up
