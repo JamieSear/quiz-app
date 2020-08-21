@@ -1,5 +1,5 @@
 import React from 'react';
-import BackButton from '../components/BackButton.js';
+import BackButton from '../Components/BackButton.js';
 import { connect } from 'react-redux';
 import { getQuizData } from '../Actions/Actions.js'
 import { withRouter} from 'react-router-dom';

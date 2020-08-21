@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import BackButton from '../components/BackButton.js'
+import BackButton from '../Components/BackButton.js'
 
 import '../App.css';
 import '../Styles/HowToPlay.css';
