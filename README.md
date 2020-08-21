@@ -12,9 +12,9 @@ Then run `npm start`
 ## Contributers
 
 Contributers: 
-Anna(https://github.com/AnnaTran96),
-Cindy(https://github.com/cindywfeng),
-George(https://github.com/georgeo23) and 
+Anna(https://github.com/AnnaTran96),\
+Cindy(https://github.com/cindywfeng),\
+George(https://github.com/georgeo23)\ and 
 Jamie(https://github.com/JamieSear)
 
 ## Stand Up
@@ -31,7 +31,6 @@ Cindy - Yesterday we made great progress. We managed to fetch the data/ make dat
 George - Pleased with work up to now, focusing on the redux side of the program today. No blockers
 
 Wednesday\
-
 Jamie - Managed to get one question to load but now need to focus on getting all questions to cycle through. This could be a potential blocker along with time
 Anna - Struggled with getting the data to pass through but managed at the end. Will work on using the store and props to pass through to child components. Blockers: none
 Cindy -  Yesterday we managed to fix that only one question appeared per page, made a “next questions”, managed to randomize the answer buttons and make the correct answer button return a score. Today: will work on making the “next questions” button appear/disappear. Blockers: Time. Aiming to complete the main features before tomorrow.
