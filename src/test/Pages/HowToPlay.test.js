@@ -16,9 +16,8 @@ describe('HowToPlay', () => {
     });
 
     test('it renders three paragraphs', () => {
-        // expect(wrapper.find('p')).toHaveLength(3);
-        const pTag = wrapper.find('p');
-        expect(pTag).toHaveLength(3)
+        const liTag = wrapper.find('li');
+        expect(liTag).toHaveLength(3)
         
     });
 })

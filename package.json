@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.18.2"
+
+    "node": "12.18.3",
+    "npm": "6.14.6"
+
   },
   "scripts": {
     "start": "webpack-dev-server --mode-development",
     "build": "webpack -p",
     "test": "jest --watch --setupFiles ./src/test/setupTests.js",
-    "coverage": "jest --setupFiles ./src/test/setupTests.js --coverage --watchAll=false"
+    "coverage": "jest --setupFiles ./src/test/setupTests.js --coverage --watchAll=false",
+    "heroku-prebuild": "npm install --dev"
   },
   "jest": {
     "moduleNameMapper": {

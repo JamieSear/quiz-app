@@ -3,6 +3,7 @@ import Play from '../../Pages/Play'
 describe('Play', () => {
     let component, form;
     let fakeEvent = { preventDefault: () => 'fake', target: {name: 'players', value: 3}}
+    let preventDefault = { preventDefault: () => 'fake' }
 
     beforeEach(() => {
         component = shallow(<Play.WrappedComponent/>)
@@ -20,7 +21,6 @@ describe('Play', () => {
     test('it should get quiz', () => {
         form = component.find('form')
         form.simulate('submit', fakeEvent)
-
         expect(component.state('questions')).toBe(2) 
     })
 
@@ -33,6 +33,12 @@ describe('Play', () => {
         component.find('select').at(0).simulate('change', fakeEvent)
         component.update()
         expect(component.find('select').at(0).props().value).toEqual(3)
+    })
+
+    test('reset input', () => {
+        let resetBtn = component.find('#resetBtn')
+        resetBtn.simulate('click', preventDefault)
+        expect(component.find('select').at(0).props().value).toEqual("2")
     })
    
 })

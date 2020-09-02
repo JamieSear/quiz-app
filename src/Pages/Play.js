@@ -1,5 +1,5 @@
 import React from 'react';
-import BackButton from '../components/BackButton.js';
+import BackButton from '../Components/BackButton.js';
 import { connect } from 'react-redux';
 import { getQuizData } from '../Actions/Actions.js'
 import { withRouter} from 'react-router-dom';
@@ -32,7 +32,10 @@ class Play extends React.Component {
 
     onResetClick(e) { 
         e.preventDefault();
-        document.getElementById('quizform').reset();  
+        this.setState({players: "2",
+        questions: "1",
+        category: "9",
+        difficulty: "easy"})
     }
 
      handleInput(e) {
